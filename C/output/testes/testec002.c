@@ -10,8 +10,10 @@ int main(void)
 	// Desvio Condicional Composto
 	if (num > 0)
 		printf("POSITIVO \n");
-	else
+	else if(num<0)
 		printf("NEGATIVO \n");
+	else
+		printf("ZERO \n");
 
     return 0;
 }
