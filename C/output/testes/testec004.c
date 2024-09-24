@@ -5,10 +5,10 @@
 #include <stdio.h>
 
 
-int main()
+int main(void)
 {
 	printf("Meu \"querido amigo\" mudou-se!\n");
 
-	system("pause");
+	
     return 0;
 }
